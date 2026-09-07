@@ -46,7 +46,7 @@
 //   console.log(`📍 http://localhost:${PORT}`);
 // });
 
-// backend/server.js
+
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
@@ -56,7 +56,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://your-portfolio.vercel.app'],
+  origin: ['http://localhost:5173', 'https://my-portfolio.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
