@@ -33,7 +33,8 @@ function App() {
     setStatus({ loading: true, success: false, error: null });
 
     try {
-      await axios.post('http://localhost:5000/api/contact', {
+      // await axios.post('http://localhost:5000/api/contact', {
+      await axios.post('https://your-backend.vercel.app/api/contact', {
         fullName: formData.name,
         email: formData.email,
         message: formData.message
