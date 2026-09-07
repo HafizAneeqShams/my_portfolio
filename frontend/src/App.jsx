@@ -165,7 +165,7 @@ I enjoy turning ideas into functional, user-friendly web applications and contin
         <div className="container">
           <h2 className="section-title">Technical Skills</h2>
           <div className="skills-grid">
-            {['MERN Stack Developer', 'Software Quality Assuarnce', 'Manual Testing', 'Automation Testing', 'MySQL', 'Python', 'Java'].map((skill, i) => (
+            {['MERN Stack Developer', 'WordPress Website Developer','Software Quality Assuarnce', 'Manual Testing', 'Automation Testing', 'MySQL', 'Python', 'Java'].map((skill, i) => (
               <div key={i} className="skill-item">
                 <div className="skill-icon">⚡</div>
                 <span>{skill}</span>
